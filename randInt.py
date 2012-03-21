@@ -2,6 +2,7 @@ import random
 
 __author__ = 'MK'
 
+# all my comments with #SAP:
 
 # pseudocode
 # random integers
@@ -10,7 +11,7 @@ __author__ = 'MK'
 # n = int(sys.argv[1])
 # m = int(sys.argv[2])
 
-n = int(input('Geben Sie anzahl:')) # anzahl der zahlen
+n = int(input('Geben Sie anzahl:')) # anzahl der zahlen #SAP: please all comments and variable names in English
 m = int(input('Bereich:')) # bereich
 
 outputfile = (input('Geben Sie die Name der Datei ein:')) #Name der Datei
@@ -28,3 +29,6 @@ for i in range(0,n):
     datei.write(str(my_number) + '\n')
 
 datei.close()
+#SAP: TODOs
+# write a nice header to this program at the beginning (Name of program, parameters, compiler used, etc)
+
