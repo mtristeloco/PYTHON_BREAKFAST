@@ -10,6 +10,16 @@ __author__ = 'MK'
 # n = int(sys.argv[1])
 # m = int(sys.argv[2])
 
+# helpfunktion
+
+def help():
+    print ("This is the randInt.py help Options:-h... shows this help"
+     "Sample:$>randInt.py 5 100 "
+     "parameter description:  randInt...program name"
+     "                        5... how many randoms"
+     "                        100... range, ie between 0...100")
+
+
 n = int(input('Geben Sie anzahl:')) # anzahl der zahlen
 m = int(input('Bereich:')) # bereich
 
@@ -24,7 +34,7 @@ for i in range(0,n):
     #zufalszahl ausgebeen
     #print (my_number)
 
-    #schreibe Ergebnis in die Datei
+    #schreibe Ergebnis (str umwandelt ins Text!) in die Datei
     datei.write(str(my_number) + '\n')
 
 datei.close()
