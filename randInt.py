@@ -2,6 +2,7 @@ import random
 
 __author__ = 'MK'
 
+# all my comments with #SAP:
 
 # pseudocode
 # random integers
@@ -10,17 +11,7 @@ __author__ = 'MK'
 # n = int(sys.argv[1])
 # m = int(sys.argv[2])
 
-# helpfunktion
-
-def help():
-    print ("This is the randInt.py help Options:-h... shows this help"
-     "Sample:$>randInt.py 5 100 "
-     "parameter description:  randInt...program name"
-     "                        5... how many randoms"
-     "                        100... range, ie between 0...100")
-
-
-n = int(input('Geben Sie anzahl:')) # anzahl der zahlen
+n = int(input('Geben Sie anzahl:')) # anzahl der zahlen #SAP: please all comments and variable names in English
 m = int(input('Bereich:')) # bereich
 
 outputfile = (input('Geben Sie die Name der Datei ein:')) #Name der Datei
@@ -34,7 +25,10 @@ for i in range(0,n):
     #zufalszahl ausgebeen
     #print (my_number)
 
-    #schreibe Ergebnis (str umwandelt ins Text!) in die Datei
+    #schreibe Ergebnis in die Datei
     datei.write(str(my_number) + '\n')
 
 datei.close()
+#SAP: TODOs
+# write a nice header to this program at the beginning (Name of program, parameters, compiler used, etc)
+
