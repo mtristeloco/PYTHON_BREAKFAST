@@ -1,3 +1,4 @@
+__author__ = ''
 # randInt.py
 
 import random
@@ -21,10 +22,8 @@ def my_help():
 
 my_help()
 
-if n == '':
-    n = int(input('Geben Sie anzahl:')) # how many numbers have to be gene  #SAP: please all comments and variable names in English
-if m == '':
-    m = int(input('Bereich:')) # bereich
+n = int(input('Geben Sie anzahl:')) # how many numbers have to be gene  #SAP: please all comments and variable names in English
+m = int(input('Bereich:')) # bereich
 
 outputfile = (input('Geben Sie die Name der Datei ein:')) # Name of the output File
 
