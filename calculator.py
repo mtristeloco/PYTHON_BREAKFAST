@@ -12,18 +12,10 @@ first_number = 0
 math_funkt = 0
 second_number = 0
 
-#def numbers
+#def numbers and fce
 first_number = (sys.argv[1])
 math_funkt = (sys.argv[2])
 second_number = (sys.argv[3])
-
-# convert numbers to float numbers
-def convertString(str):
-    try:
-        returnValue = int(str)
-    except ValueError:
-        returnValue = float(str)
-    return returnValue
 
 # math functions defined
 def addition(first_number, second_number):
