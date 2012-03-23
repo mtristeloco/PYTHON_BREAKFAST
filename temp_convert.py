@@ -4,7 +4,8 @@ __author__ = 'MK'
 
 # global parameters
 temp_val = 0
-degree = ['Celsius', 'Farenheit']
+# degree = ['Celsius', 'Farenheit'] #SAP
+
 
 
 #main program
@@ -15,11 +16,11 @@ degree = (sys.argv[2])
 if degree =='Celsius':
     temp_val=float(temp_val)
     far_value = temp_val * 9.0 / 5.0 + 32
-    print("%.2f" %far_value)
+    print(temp_val,'=', "%.2f" %far_value, 'Fahrenheit' ) #SAP Output: 20.0 = 68.00 Fahrenheit
 
 # Farenheit to Celsius
 else:
     temp_val=float(temp_val)
     celsius_value = (temp_val - 32 ) * 5 / 9
-    print("%.2f" %celsius_value)
+    print("%.2f" %celsius_value) #SAP do the same as above
 

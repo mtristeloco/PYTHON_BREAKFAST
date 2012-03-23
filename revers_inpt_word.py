@@ -3,7 +3,7 @@
 # Python 3.2
 ##############################################################
 import sys
-
+#SAP: u can delete this file
 __author__ = 'MK'
 
 # global
