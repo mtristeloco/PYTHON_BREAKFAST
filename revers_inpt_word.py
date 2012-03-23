@@ -7,14 +7,14 @@ import sys
 __author__ = 'MK'
 
 # global
-s = ''
+user_word = ''
 
 # define revers function
-def rev(s): return s[::-1]
+def rev(user_word): return user_word[::-1]
 
 # entry point
-s = (sys.argv[1])
-s = rev(s)
-print(s)
+user_word = (sys.argv[1])
+user_word = rev(user_word)
+print(user_word)
 
 
