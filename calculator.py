@@ -14,7 +14,7 @@ second_number = 0
 
 #def numbers and fce
 first_number = (sys.argv[1])    #SAP arguments need to be given:
-                                # Edit Configurations->Script parameters, I testd with
+                                # Edit Configurations->Script parameters, I tested with
                                 # 18 + 3, but you need to do some changes to the others in order to work
 math_funkt = (sys.argv[2])      # result 21
 second_number = (sys.argv[3])
