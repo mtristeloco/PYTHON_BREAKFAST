@@ -3,7 +3,6 @@
 #
 # Generate n random numbers in rage from 0 to m and save them
 # to given name.txt file
-# Generate also float numbers and save them in csv format
 #
 # Michal Kalinic
 # Python 3.2
@@ -43,4 +42,3 @@ if len(sys.argv) > 1:
         output_file.write(str(my_number) + '\n')
 
 output_file.close()
-
